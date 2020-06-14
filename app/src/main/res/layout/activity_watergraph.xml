@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="수분 통계"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#87CEEB"/>
+
+    <TextView
+        android:id="@+id/text_today_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘 물 섭취량이 목표 이하입니다."
+        android:background="#ffe4a5"
+        android:textColor="#df5600"
+        android:padding="5pt"
+        android:layout_margin="5pt"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/text_today_safe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘 물 섭취량이 목표를 만족하였습니다."
+        android:background="#9FF781"
+        android:textColor="#000000"
+        android:padding="5pt"
+        android:layout_margin="5pt"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:id="@+id/text_week_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="최근 7일 중 목표를 미달한 날이 있습니다."
+        android:background="#ffe4a5"
+        android:textColor="#df5600"
+        android:padding="5pt"
+        android:layout_margin="5pt"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/text_week_safe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="최근 7일 물섭취량이 안정적입니다."
+        android:background="#9FF781"
+        android:textColor="#000000"
+        android:padding="5pt"
+        android:layout_margin="5pt"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible"
+        />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="310dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X축: 날짜, Y축: mL"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="뒤로가기"
+        android:textSize="20sp"
+        android:layout_margin="5pt"/>
+
+</LinearLayout>

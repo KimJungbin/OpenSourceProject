@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778679864767",
+    "firebase_url": "https://tidy-tine-277705.firebaseio.com",
+    "project_id": "tidy-tine-277705",
+    "storage_bucket": "tidy-tine-277705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778679864767:android:b4cd64a9eb29aef349a50a",
+        "android_client_info": {
+          "package_name": "app.android.ww.com.myfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778679864767-dm1u1vqrlued4u8f6e3ido7tj9rer40r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.android.ww.com.myfit",
+            "certificate_hash": "8a2a197d4b2c605ed97c406d94fb7d9513d55ebe"
+          }
+        },
+        {
+          "client_id": "778679864767-h0v3ooit2oit5tufkehd7ijl7a921ggn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIBIU4avpMzyN6iuRkx2vI3I8jZEIf7LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778679864767-h0v3ooit2oit5tufkehd7ijl7a921ggn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
