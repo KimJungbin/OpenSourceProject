@@ -9,6 +9,7 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:text="수분 관리"
         android:textSize="30sp"
         android:textAlignment="center"
@@ -24,6 +25,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:text="목표설정을 먼저 해주세요!"
         android:textSize="20sp"
         android:textAlignment="center"/>
@@ -39,6 +41,7 @@
         android:id="@+id/et_water_mount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:hint="하루동안 마신 물의 양(mL)"
         android:textAlignment="center" />
 
@@ -46,6 +49,7 @@
         android:id="@+id/btn_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:text="저장"
         android:layout_marginLeft="5pt"
         android:layout_marginRight="5pt"
@@ -56,6 +60,7 @@
         android:id="@+id/btn_water_target"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:text="목표설정"
         android:layout_marginLeft="5pt"
         android:layout_marginRight="5pt"
@@ -66,6 +71,7 @@
         android:id="@+id/btn_water_graph"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:text="통계 확인"
         android:layout_marginLeft="5pt"
         android:layout_marginRight="5pt"

@@ -8,6 +8,7 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:text="수분 목표 설정"
         android:textSize="30sp"
         android:textAlignment="center"
@@ -23,6 +24,7 @@
         android:id="@+id/et_water_target"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:hint="하루동안 마실 물의 양(mL)"
         android:textAlignment="center" />
 
@@ -30,6 +32,7 @@
         android:id="@+id/et_water_cycle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:hint="물을 마시는 주기(h)"
         android:textAlignment="center" />
 
@@ -37,6 +40,7 @@
         android:id="@+id/btn_target_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/ckr"
         android:text="설정완료"
         android:textSize="20sp"
         android:layout_margin="5pt"/>
