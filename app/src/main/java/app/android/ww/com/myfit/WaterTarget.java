@@ -1,3 +1,10 @@
+/*
+프로그램명: WaterTarget
+작성자: 김정빈
+작성일: 2020.06.22
+프로그램 설명: 당일의 수분 섭취 목표와 섭취 빈도를 설정한다.
+© 2020 JungBin Kim <kiria7373@gmail.com>
+ */
 package app.android.ww.com.myfit;
 
 import android.content.Intent;

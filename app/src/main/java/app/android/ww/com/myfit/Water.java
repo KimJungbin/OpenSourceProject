@@ -1,3 +1,10 @@
+/*
+프로그램명: Water
+작성자: 김정빈
+작성일: 2020.06.22
+프로그램 설명: Water 클래스
+© 2020 JungBin Kim <kiria7373@gmail.com>
+ */
 package app.android.ww.com.myfit;
 
 import com.google.firebase.database.IgnoreExtraProperties;

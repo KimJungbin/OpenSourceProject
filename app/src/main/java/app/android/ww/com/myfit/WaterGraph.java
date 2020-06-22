@@ -1,3 +1,11 @@
+/*
+프로그램명: WaterGraph
+작성자: 김정빈
+작성일: 2020.06.22
+프로그램 설명: DB에 저장된 기록을 불러와 최근 일주일간의 수분 그래프를 표시하여준다.
+또한 당일, 일주일간 수분섭취가 올바른지 판단하여 알려준다.
+© 2020 JungBin Kim <kiria7373@gmail.com>
+ */
 package app.android.ww.com.myfit;
 
 import android.app.Activity;

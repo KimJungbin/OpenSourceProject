@@ -1,3 +1,11 @@
+/*
+프로그램명: WaterActivity
+작성자: 김정빈
+작성일: 2020.06.22
+프로그램 설명: 수분 관리 기능의 메인 화면. 버튼을 통해 각 기능으로 이동할 수 있고,
+DB에 수분 기록을 저장할 수 있다.
+© 2020 JungBin Kim <kiria7373@gmail.com>
+ */
 package app.android.ww.com.myfit;
 
 import android.content.Intent;
